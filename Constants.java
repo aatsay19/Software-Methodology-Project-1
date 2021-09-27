@@ -1,7 +1,14 @@
 package songlibrary;
 
+/**
+ * This class defines the various constants that are used throughout the SongLibrary project.
+ * @author Aatif Sayed, Pranav Tailor
+ */
 public final class Constants {
     
+    /**
+     * Default constructor; set to  private to restrict instantiation of a Constants object.
+     */
     private Constants() {}
     
     public static final int NOT_FOUND = -1;
@@ -18,7 +25,7 @@ public final class Constants {
     public static final int AUGUST = 8;
     public static final int SEPTEMBER = 9;
     public static final int OCTOBER = 10;
-    public static final int NOVEMBER= 11;
+    public static final int NOVEMBER = 11;
     public static final int DECEMBER = 12;
     
     public static final int QUADRENNIAL = 4;
@@ -29,7 +36,7 @@ public final class Constants {
     public static final int MINIMUM_DAY_NUMBER = 1;
     public static final int DAYS_IN_MONTH_1 = 30;  // For April, June, September, and November
     public static final int DAYS_IN_MONTH_2 = 31;  // For all other months besides February and the ones listed above
-    public static final int NON_LEAP_YEAR_FEBRUARY_DAYS= 28;
+    public static final int DAYS_IN_NON_LEAP_YEAR = 365;
+    public static final int NON_LEAP_YEAR_FEBRUARY_DAYS = 28;
     public static final int LEAP_YEAR_FEBRUARY_DAYS = 29;
-    
 }
